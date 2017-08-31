@@ -6,6 +6,8 @@ PID=$BASE/blynk.pid
 LOG=$BASE/blynk.log
 ERROR=$BASE/blynk-error.log
 
+# This command has to be adapted to where Java is located
+# and the Blynk jar file of course
 COMMAND="/storage/java/jre/bin/java -jar /storage/blynk/server.jar"
 
 status() {
